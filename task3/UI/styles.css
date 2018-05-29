@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   html, body {
@@ -28,6 +26,10 @@
     margin-left: 10px;  
     border: 2px solid red;
 }
+.user_info{
+    text-align: right;
+    float:right; 
+}
 button{
     margin: 20px 40%;
     height: 60px;
@@ -38,6 +40,7 @@ button{
 header{
     margin: 0px 15%;
     display: flex;
+	justify-content: space-between;
     background-color: #ff5d55;
     width: 70%;
     height: 80px;
@@ -49,8 +52,22 @@ header{
     margin: 20px 20%;
     background-color: #ffe2d8;
     width: 60%;
-    height: 500px;
+    height: auto;
     padding: 30px;
+    text-align: center;
+}
+.description{
+    text-align: left;
+}
+.hashtags{
+    text-align: left;
+}
+.likes{
+    text-align: left;
+}
+.publicationDate{
+    text-align: right;
+    float: right;
 }
 footer{
     margin: 0 15%;
